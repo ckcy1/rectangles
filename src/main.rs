@@ -1,3 +1,4 @@
+#[derive(Debug)]
 struct Rectangle{
     width:u32,
     height:u32,
@@ -14,6 +15,7 @@ let rect1=Rectangle{width:30,height:50};
         //  area(rect1)
         area(&rect1)
     );
+    println!("打印结构体{:#?}",rect1);
    // println!("Hello, world!");
    //  fn area(dimensions:(u32,u32))->u32{
    //     dimensions.0 * dimensions.1

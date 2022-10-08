@@ -12,8 +12,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a029db02-d211-48ad-99e9-c727ce53bf4c" name="默认变更列表" comment="使用元祖来重构代码">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a029db02-d211-48ad-99e9-c727ce53bf4c" name="默认变更列表" comment="使用结构梯来重构代码">
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <updated>1665238423947</updated>
       <workItem from="1665238426967" duration="2359000" />
       <workItem from="1665240870106" duration="3000" />
-      <workItem from="1665267256673" duration="613000" />
+      <workItem from="1665267256673" duration="989000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1665239177702</created>
@@ -103,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665239812948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="使用结构梯来重构代码">
+      <created>1665267891677</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665267891677</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <MESSAGE value="使用元祖来重构代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用元祖来重构代码" />
+    <MESSAGE value="使用结构梯来重构代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用结构梯来重构代码" />
   </component>
 </project>
