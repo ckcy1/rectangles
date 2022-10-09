@@ -9,6 +9,8 @@ fn main() {
     // let height1 =50;
     // let rect1 = (30,50);
     let rect1 = Rectangle { width: 30, height: 50 };
+    let rect2 = Rectangle{width:10,height:30};
+    let rect3 =Rectangle{width:35,height:55};
     println!(
         "The area of the rectangle is {} square pixels.",
         // area(width1,height1)
@@ -18,6 +20,8 @@ fn main() {
     );
     println!("打印结构体{:#?}", rect1);
     println!("打印正方体{:?}",Rectangle::square(5));
+    println!("1比2 {}",rect1.duibi(&rect2));
+    println!("1比3 {}",rect1.duibi(&rect3));
     // println!("Hello, world!");
     //  fn area(dimensions:(u32,u32))->u32{
     //     dimensions.0 * dimensions.1
@@ -31,6 +35,10 @@ fn main() {
                 width:x,
                 height:x,
             }
+
+        }
+        fn duibi(&self,other:&Rectangle) -> bool{
+            self.width > other.width && self.height> other.height
 
         }
     }
